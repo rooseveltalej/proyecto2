@@ -124,7 +124,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -138,7 +138,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -172,6 +172,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -859,7 +872,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MR Cookies_Complete_48x48_0: -2238525341579499850
+      MR Cookies_Complete_48x48_1: -2149762456224451040
+      MR Cookies_Complete_48x48_10: -2494027433457712543
+      MR Cookies_Complete_48x48_11: 6396174558166682464
+      MR Cookies_Complete_48x48_12: -4880024942755019961
+      MR Cookies_Complete_48x48_13: -5559089161520098439
+      MR Cookies_Complete_48x48_14: -1483337001922416472
+      MR Cookies_Complete_48x48_15: 657953234748658324
+      MR Cookies_Complete_48x48_16: -4462393682621871441
+      MR Cookies_Complete_48x48_17: 8802011064568677834
+      MR Cookies_Complete_48x48_18: 3330338430181367029
+      MR Cookies_Complete_48x48_19: 2584221916319889048
+      MR Cookies_Complete_48x48_2: -7810169961826287330
+      MR Cookies_Complete_48x48_20: 316286129691874071
+      MR Cookies_Complete_48x48_21: 4115190600019295662
+      MR Cookies_Complete_48x48_22: -3294563196200840035
+      MR Cookies_Complete_48x48_23: 6213772929814734
+      MR Cookies_Complete_48x48_24: 4586358716853997398
+      MR Cookies_Complete_48x48_25: -3676224774564410248
+      MR Cookies_Complete_48x48_26: 8452342391364622768
+      MR Cookies_Complete_48x48_27: -9053401129686611881
+      MR Cookies_Complete_48x48_28: 3072352642845154946
+      MR Cookies_Complete_48x48_29: -2371638526718236547
+      MR Cookies_Complete_48x48_3: 5257300430243173558
+      MR Cookies_Complete_48x48_4: 1140657319868863408
+      MR Cookies_Complete_48x48_5: -5787002778946647675
+      MR Cookies_Complete_48x48_6: 1184839802182469670
+      MR Cookies_Complete_48x48_7: -7149377712268153390
+      MR Cookies_Complete_48x48_8: 1883503663121751500
+      MR Cookies_Complete_48x48_9: -6444979462550656494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

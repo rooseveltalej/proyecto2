@@ -12,6 +12,8 @@ public class PlayerControler : MonoBehaviour
     private bool enSuelo;
     private Rigidbody2D rb;
 
+    public Animator animator;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,12 +22,16 @@ public class PlayerControler : MonoBehaviour
     
     void Update()
     {
-        //Este vendría a ser el movimiento horizontal del jugador
+        //Este vendrï¿½a a ser el movimiento horizontal del jugador
         float velocidadX = Input.GetAxis("Horizontal")*Time.deltaTime*velocidad;
+
+        //Este es para actualizar la animacion del jugador 
+        animator.SetFloat("movement", velocidadX*velocidad);
+
         Vector3 posicion = transform.position;
         transform.position = new Vector3(velocidadX + posicion.x, posicion.y, posicion.z);
 
-        //Todo esto se encarga del salto, tanto de detectar si está tocando el suelo, como de ejecutar el salto sino
+        //Todo esto se encarga del salto, tanto de detectar si estï¿½ tocando el suelo, como de ejecutar el salto sino
         RaycastHit2D  hit = Physics2D.Raycast(transform.position, Vector2.down, longitudRaycast, capaSuelo);
         enSuelo = hit.collider != null;
 

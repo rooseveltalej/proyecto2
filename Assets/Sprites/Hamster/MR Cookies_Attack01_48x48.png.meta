@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,6 +103,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -284,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MR Cookies_Attack01_48x48_0: -8479962030236064431
+      MR Cookies_Attack01_48x48_1: 6821681792435912057
+      MR Cookies_Attack01_48x48_2: -1693648466757068226
+      MR Cookies_Attack01_48x48_3: -6784916123737619150
+      MR Cookies_Attack01_48x48_4: 7536615369395034605
+      MR Cookies_Attack01_48x48_5: -5433077332036826746
+      MR Cookies_Attack01_48x48_6: -6869218686502427982
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
