@@ -288,10 +288,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 5
   fuerzaSalto: 10
-  longitudRaycast: 0.1
+  longitudRaycast: 0.7
   capaSuelo:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   animator: {fileID: 319348891}
 --- !u!95 &319348891
 Animator:
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 487089311}
   - component: {fileID: 487089310}
   - component: {fileID: 487089309}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -50,6 +50,8 @@ public class PlayerControler : MonoBehaviour
             rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
         }
 
+        animator.SetBool("enSuelo", enSuelo);
+
     }
 
     private void OnDrawGizmos()
