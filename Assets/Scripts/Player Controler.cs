@@ -5,7 +5,7 @@ public class PlayerControler : MonoBehaviour
 
     public float velocidad = 5f;
 
-    public float fuerzaSalto = 10f;
+    public float fuerzaSalto = 5f;
     public float longitudRaycast = 0.1f;
     public LayerMask capaSuelo;
 
