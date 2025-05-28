@@ -54,6 +54,7 @@ public class PlayerControler : MonoBehaviour
         // Code para detectar el salto
 
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, capaSuelo);
+        animator.SetBool("enSuelo", enSuelo);
 
         if (enSuelo) {
             saltosExtraRestantes = saltosExtra;
@@ -91,8 +92,7 @@ public class PlayerControler : MonoBehaviour
 
     private void Salto()
     {
-        rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
-        animator.SetBool("enSuelo", enSuelo);
+        rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);  
         salto = false;
     }
 
