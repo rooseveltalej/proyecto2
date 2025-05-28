@@ -4,7 +4,7 @@ using TMPro;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-
+    [SerializeField] private GameObject dialogueIndicator;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
@@ -74,7 +74,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             isPlayerInRange = true;
-            Debug.Log("Diálogo Inicia");
+            dialogueIndicator.SetActive(true);
+            Debug.Log("Entra");
         }
     }
 
@@ -83,7 +84,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             isPlayerInRange = false;
-            Debug.Log("Diálogo Termina");
+            dialogueIndicator.SetActive(false);
+            Debug.Log("Sale");
         }
     }
 }
