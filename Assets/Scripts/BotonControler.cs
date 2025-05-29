@@ -1,56 +1,50 @@
 using UnityEngine;
 
-public class BotonPresion : MonoBehaviour
+public class BotonActivador : MonoBehaviour
 {
-    [SerializeField] private GameObject objetoActivable;
-    [SerializeField] private string[] tagsActivadores = { "Player", "Caja" };
-    [SerializeField] private bool mantenerActivo = false; // Si querés que no se apague al salir
+    [SerializeField] private GameObject[] objetosAControlar;
+    [SerializeField] private bool activarEnContacto = true;      // ¿Activa al contacto?
+    [SerializeField] private bool usarSoloUnaVez = false;        // ¿Solo una vez?
+    [SerializeField] private bool mantenerMientrasPresionado = false; // ¿Mantener efecto mientras presionado?
 
-    private int objetosEncima = 0;
+    private bool haSidoUsado = false;
+    private int objetosEnContacto = 0;
 
-    private void OnTriggerEnter(Collider other)
+    private void ToggleObjetos()
     {
-        if (EsActivadorValido(other.tag))
+        foreach (GameObject obj in objetosAControlar)
         {
-            objetosEncima++;
-            if (objetosEncima == 1)
+            if (obj != null)
+                obj.SetActive(!obj.activeSelf);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if ((collision.CompareTag("Player") || collision.CompareTag("Caja")) && !haSidoUsado)
+        {
+            objetosEnContacto++;
+
+            if (objetosEnContacto == 1 && objetosAControlar != null)
             {
-                ActivarObjeto();
+                ToggleObjetos();
+
+                if (!mantenerMientrasPresionado && usarSoloUnaVez)
+                    haSidoUsado = true;
             }
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        if (EsActivadorValido(other.tag))
+        if ((collision.CompareTag("Player") || collision.CompareTag("Caja")) && !haSidoUsado)
         {
-            objetosEncima--;
-            if (objetosEncima <= 0 && !mantenerActivo)
+            objetosEnContacto = Mathf.Max(0, objetosEnContacto - 1);
+
+            if (objetosEnContacto == 0 && objetosAControlar != null && mantenerMientrasPresionado)
             {
-                DesactivarObjeto();
+                ToggleObjetos();
             }
         }
-    }
-
-    private bool EsActivadorValido(string tag)
-    {
-        foreach (string t in tagsActivadores)
-        {
-            if (tag == t)
-                return true;
-        }
-        return false;
-    }
-
-    private void ActivarObjeto()
-    {
-        if (objetoActivable != null)
-            objetoActivable.SetActive(true);
-    }
-
-    private void DesactivarObjeto()
-    {
-        if (objetoActivable != null)
-            objetoActivable.SetActive(false);
     }
 }
