@@ -875,7 +875,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2238525341579499850, guid: 02505a3f4e98bf646b0b3e12793ada86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -58949,6 +58949,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -214.248
       objectReference: {fileID: 0}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 31507405}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1972497309}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -59517,6 +59525,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4322455756244130425, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5037053597470848872, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
       propertyPath: m_LocalPosition.x
       value: -36.0943
@@ -59557,6 +59569,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -214.248
       objectReference: {fileID: 0}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 31507405}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1972497309}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -59618,6 +59638,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -222.124
       objectReference: {fileID: 0}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 31507405}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1972497309}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60176,6 +60204,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -214.248
       objectReference: {fileID: 0}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 31507405}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1972497309}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62528,6 +62564,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -214.248
       objectReference: {fileID: 0}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 31507405}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1972497309}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62834,6 +62878,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -214.248
       objectReference: {fileID: 0}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 31507405}
+    - target: {fileID: 7686438473009930946, guid: 0d54a459097b8d64dbeae2304c308e75, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1972497309}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
