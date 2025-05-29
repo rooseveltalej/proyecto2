@@ -246,7 +246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6841270767457659492}
   - component: {fileID: 3566631070566818340}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4921911033532258935}
   - component: {fileID: 2866200765916572866}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlataformaPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
