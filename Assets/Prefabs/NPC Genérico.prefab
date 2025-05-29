@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5870557510363804662}
   - component: {fileID: 5028964722839692557}
   - component: {fileID: 5078196246209337454}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DialogueIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 6800883268053097995}
   - component: {fileID: 7548614594728085863}
   - component: {fileID: 1950618286630353424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "NPC Gen\xE9rico"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,8 +258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10c702a0b87aa32488ca25972c3d7249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueIndicator: {fileID: 5352028385157218987}
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
   dialogueLines:
   - "Texto de prueba 1, este es un di\xE1logo."
-  dialogueIndicator: {fileID: 5352028385157218987}
