@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 396419987460012211}
   - component: {fileID: 8990093441904397971}
   - component: {fileID: 1274499893839192768}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: CajaPrefab
   m_TagString: Caja
   m_Icon: {fileID: 0}
