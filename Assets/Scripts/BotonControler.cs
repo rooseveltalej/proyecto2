@@ -43,7 +43,7 @@ public class BotonActivador : MonoBehaviour
 
             if (objetosEnContacto == 0 && objetosAControlar != null && mantenerMientrasPresionado)
             {
-                ToggleObjetos();c
+                ToggleObjetos();
             }
         }
     }
