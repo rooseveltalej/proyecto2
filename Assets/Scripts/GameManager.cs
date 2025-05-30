@@ -43,12 +43,33 @@ public class GameManager : MonoBehaviour
             if (pastelillos == 4)
             {
                 return true;
-            } else
+            }
+            else
             {
                 return false;
-            }                      
+            }
         }
-        return false;
+        else if (nivel == 2) {
+            if (pastelillos == 3)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        } else if (nivel == 3)
+        {
+            if (pastelillos == 3)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+            return false;
     }
 
     public void cargarSiguienteNivel()
@@ -59,11 +80,16 @@ public class GameManager : MonoBehaviour
             {
                 SceneManager.LoadSceneAsync(2);
                 setNivel(2);
+                resetPastelillos();
             }
             else if (nivel == 2)
             {
                 SceneManager.LoadSceneAsync(3);
                 setNivel(3);
+                resetPastelillos();
+            } else if (nivel == 3)
+            {
+                SceneManager.LoadSceneAsync(0);
             }
         }
     }
