@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -49,5 +50,23 @@ public class GameManager : MonoBehaviour
         }
         return false;
     }
+
+    public void cargarSiguienteNivel()
+    {
+        if (checkNivelCompleted())
+        {
+            if (nivel == 1)
+            {
+                SceneManager.LoadSceneAsync(2);
+                setNivel(2);
+            }
+            else if (nivel == 2)
+            {
+                SceneManager.LoadSceneAsync(3);
+                setNivel(3);
+            }
+        }
+    }
+
 
 }

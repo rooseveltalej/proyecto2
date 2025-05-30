@@ -76,6 +76,7 @@ public class NPCfinal : MonoBehaviour
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
             Time.timeScale = 1f;
+            GameManager.Instance.cargarSiguienteNivel();
         }
     }
 
