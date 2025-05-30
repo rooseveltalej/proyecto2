@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
     {
         if (nivel == 1)
         {
-            if (pastelillos == 1)
+            if (pastelillos == 4)
             {
                 return true;
             } else
