@@ -289,10 +289,13 @@ MonoBehaviour:
   velocidad: 5
   fuerzaSalto: 7.5
   longitudRaycast: 0.7
+  controladorSuelo: {fileID: 0}
+  dimensionesCaja: {x: 0, y: 0, z: 0}
   capaSuelo:
     serializedVersion: 2
     m_Bits: 8
-  animator: {fileID: 319348891}
+  saltosExtraRestantes: 0
+  saltosExtra: 0
 --- !u!95 &319348891
 Animator:
   serializedVersion: 7
