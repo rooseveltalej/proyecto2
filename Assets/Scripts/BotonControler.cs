@@ -3,7 +3,6 @@ using UnityEngine;
 public class BotonActivador : MonoBehaviour
 {
     [SerializeField] private GameObject[] objetosAControlar;
-    [SerializeField] private bool activarEnContacto = true;      // ¿Activa al contacto?
     [SerializeField] private bool usarSoloUnaVez = false;        // ¿Solo una vez?
     [SerializeField] private bool mantenerMientrasPresionado = false; // ¿Mantener efecto mientras presionado?
 
