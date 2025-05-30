@@ -3899,11 +3899,11 @@ PrefabInstance:
     - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
       propertyPath: dialogueText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1233099747}
     - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
       propertyPath: dialoguePanel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1783267332}
     - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 5
