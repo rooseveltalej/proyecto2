@@ -665,7 +665,7 @@ Transform:
   m_GameObject: {fileID: 160835674}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 139.4, y: -15.835375, z: 0.06827244}
+  m_LocalPosition: {x: 139.31, y: -16.78, z: 0.06827244}
   m_LocalScale: {x: 1.5303, y: 1.5303, z: 1.5303}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2873,7 +2873,7 @@ Transform:
   m_GameObject: {fileID: 658773919}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 105.75626, y: -15.835375, z: 0.06827244}
+  m_LocalPosition: {x: 105.66, y: -16.87, z: 0.06827244}
   m_LocalScale: {x: 1.5303, y: 1.5303, z: 1.5303}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3888,6 +3888,157 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89380e1f51a6c0b408e2d99a2ad10c68, type: 3}
+--- !u!1001 &966648603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: Tal parece ser cierto que hemos recibido un invitado.
+      objectReference: {fileID: 0}
+    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Me han dicho que quieres continuar tu camino a casa, sin embargo debes
+        saber que necesitas tres pastelillos para que te deje continuar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: Voy a revisar cuantos tienes...
+      objectReference: {fileID: 0}
+    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "\xA1Lograste conseguirlos todos! Puedes continuar sin problema, puedes
+        volver cuando quieras."
+      objectReference: {fileID: 0}
+    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "No tienes lo pastelillos necesarios, recuerda traer todos los que se
+        encuentran en la alcantarilla de lo contrario no podr\xE9 abrirte paso."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950618286630353424, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950618286630353424, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950618286630353424, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950618286630353424, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: Tal parece ser cierto que hemos recibido un invitado.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950618286630353424, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: Me han dicho que quieres continuar tu camino a casa, sin embargo debes
+        saber que necesitas tres pastelillos para que te deje continuar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950618286630353424, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: Voy a revisar cuantos tienes...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950618286630353424, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "\xA1Lograste conseguirlos todos! Puedes continuar sin problema, puedes
+        volver cuando quieras."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950618286630353424, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "No tienes lo pastelillos necesarios, recuerda traer todos los que se
+        encuentran en la alcantarilla de lo contrario no podr\xE9 abrirte paso."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3447
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3447
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3447
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 142.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800883268053097995, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800883268053097995, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800883268053097995, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6072697166316404889, guid: c7d3ebbf3c2cd0544b3e59e9c6cb4063, type: 3}
+    - target: {fileID: 7945701539798350306, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
+      propertyPath: m_Name
+      value: NPC Final
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
 --- !u!1001 &987672692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43679,79 +43830,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4463946542742744380, guid: 89380e1f51a6c0b408e2d99a2ad10c68, type: 3}
   m_PrefabInstance: {fileID: 226478873}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1585652462
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 1233099747}
-    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: dialoguePanel
-      value: 
-      objectReference: {fileID: 1783267332}
-    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: dialogueLines.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 978318001470776327, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Deber\xE1s traerme todos los pasteles si quieres pasar de nivel"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 144.21463
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 23.14024
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.32192713
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.94676447
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773311018261213114, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 142.441
-      objectReference: {fileID: 0}
-    - target: {fileID: 7945701539798350306, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
-      propertyPath: m_Name
-      value: NPC Final
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c6b5662d1c51ccc4caf857049dbf4b9d, type: 3}
 --- !u!1 &1658819069 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6737801467750516803, guid: 11597d47f983c84479ca4f4cad86f42e, type: 3}
@@ -45532,4 +45610,4 @@ SceneRoots:
   - {fileID: 987672692}
   - {fileID: 686706193}
   - {fileID: 519129265}
-  - {fileID: 1585652462}
+  - {fileID: 966648603}
