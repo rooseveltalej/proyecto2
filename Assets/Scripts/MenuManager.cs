@@ -3,6 +3,7 @@ using TMPro;
 using UnityEditor.Rendering;
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 
 public class MenuManager : MonoBehaviour
@@ -44,5 +45,10 @@ public class MenuManager : MonoBehaviour
             yield return new WaitForSecondsRealtime(0.05f);
         }
         buttonContinue.SetActive(true);
+    }
+
+    public void cargarJuego()
+    {
+        SceneManager.LoadSceneAsync(1);
     }
 }
